@@ -119,7 +119,10 @@ body{
     width: 100%;
     height: 600px;
     background-color: red;
+    margin-bottom: 30px;
 }
+
+
 
 
 
@@ -148,6 +151,14 @@ body{
         height: 435px;
     }
 
+    .strategic .col1{
+        height: 900px;
+    }
+
+    .strategic .col2{
+        height: 840px;
+    }
+
 }
 
    
@@ -172,4 +183,20 @@ body{
     .container .nav{
         margin-right: 0;
     }
+
+    .strategic .col1{
+        height: 740px;
+    }
+
+    .strategic .col2{
+        margin-top: 20px;
+        height: 560px;
+    }
+
+    .strategic .container{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    
 }
