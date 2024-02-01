@@ -86,31 +86,26 @@ body{
     margin: 30px;
 }
 
-.container .row1, .container .row2{
+.container .row{
     width: 100%;
     
 }
 
-.row1 .card-large{
-    width: 60%;
+.row .card-large{
+    width: 100%;
     height: 600px;
     background-color: aqua;
-    
+    margin-bottom: 30px;
 }
 
-.row1 .card-small{
-    width: 40%;
+.row .card-small{
+    width: 100%;
     height: 360px;
     background-color: aqua;
-    
+    margin-bottom: 30px;
 }
 
-.row2 .card-small{
-    width: 40%;
-    height: 360px;
-    background-color: aqua;
-    
-}
+
 
 /*************************************************
 
@@ -119,5 +114,5 @@ body{
 *************************************************/
 
 @media screen and(min-width:768px){
-
+    
 }
