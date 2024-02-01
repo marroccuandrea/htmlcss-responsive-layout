@@ -118,18 +118,24 @@ body{
     
     .container .row{
         justify-content: space-between;
-        
     }
 
     .row .card-large{
         width: 65%;
     }
 
-    .row .card-small{
-        width: 30%;
+    .demo #larger{
         height: 600px;
     }
+
+    .row .card-small{
+        width: 30%;
+        height: 435px;
+    }
+
 }
+
+   
 
 @media screen and (min-width:1200px){
     .row .card-large{
