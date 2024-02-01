@@ -122,7 +122,26 @@ body{
     margin-bottom: 30px;
 }
 
-
+.testimonial .container{
+    height: 100%;
+}
+.testimonial .row{
+    height: 100%;
+}
+  
+.testimonial .col{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #9792E4;
+}
+.testimonial .col:nth-child(1){
+    height: 340px;
+    margin-bottom: 50px;
+}
+.testimonial .row:nth-child(1) .col{
+    text-align: center;
+}
 
 
 
@@ -157,6 +176,14 @@ body{
 
     .strategic .col2{
         height: 840px;
+    }
+
+    .testimonial .col:nth-child(1){
+        height: 200px;
+    }
+
+    .testimonial .col{
+        height: 280px;
     }
 
 }
