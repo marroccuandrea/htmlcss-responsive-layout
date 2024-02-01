@@ -192,6 +192,21 @@ body{
     margin-bottom: 80px;
 }
 
+.free{
+    background-color: #9792E4;
+}
+
+.free .container{
+    height: 100%;
+    margin: 0 30px;
+}
+
+.free .text{
+    height: 500px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 
 /*************************************************
 
