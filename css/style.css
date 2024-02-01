@@ -205,6 +205,22 @@ body{
     height: 500px;
     margin-top: 70px;
     margin-bottom: 70px;
+    background-color: white;
+}
+
+footer{
+    background-color: #333;
+}
+
+footer .container{
+    margin: 0 30px;
+}
+
+.container .footer-text{
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
 }
 
 
@@ -274,6 +290,16 @@ body{
         margin-top: 70px;
     }
 
+    .free .text{
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    .container .footer-text{
+        width: 410px;
+        margin: 0 auto;
+    }
+
 }
 
    
@@ -311,10 +337,19 @@ body{
     .strategic .container{
         display: flex;
         align-items: flex-end;
+        margin: 0 auto;
+    }
+
+    .testimonial .container{
+        margin: 0 auto;
     }
 
     .benefits .col{
         width: 33%;
+    }
+
+    .benefits .container{
+        margin: 0 auto;
     }
 
     .about .col:nth-child(1){
@@ -324,6 +359,20 @@ body{
         height: 530px;
     }
 
+    .about .container{
+        margin: 0 auto;
+    }
+
+    .free .container{
+        margin: 0 auto;
+    }
+
+    .free .text{
+        width: 560px;
+    }
     
+    footer .container{
+        margin: 0 auto;
+    }
     
 }
