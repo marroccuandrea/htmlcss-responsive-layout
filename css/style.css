@@ -45,7 +45,6 @@ body{
     z-index: 999;
     background-color: #0084FD;
     height: 80px;
-    color: white;
 }
 
 .menu-header .container{
@@ -69,15 +68,37 @@ body{
     align-items: center;
 }
 
-.nav-hamburgher a{
+.nav .nav-hamburgher a{
     text-decoration: none;
     color: white;
 }
 
 .nav-desktop{
     display: none;
-    
 }
+
+.nav-desktop ul{
+    height: 100%;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-desktop ul li:not(:last-child){
+    margin: 0 20px;
+}
+
+.nav-desktop ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-desktop ul li:last-child{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
 /* HEADER  */
 
 /* MAIN  */
@@ -305,6 +326,15 @@ footer .container{
    
 
 @media screen and (min-width:1200px){
+
+    .nav-hamburgher{
+        display: none;
+    }
+
+    .nav-desktop{
+        display: block;
+    }
+
     .row .card-large{
         height: 350px;
     }
