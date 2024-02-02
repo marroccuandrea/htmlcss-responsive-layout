@@ -525,18 +525,51 @@ footer .container{
 
     .strategic .row{
         margin-top: 20px;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .strategic .row .col1{
+        height: 100%;
+        width: 100%;
+    }
+
+    .strategic .row .col2{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .strategic .col2 img{
+        width: 70%;
+    }
+
+    .strategic .col2 .card{
+        margin: 20px 20px 0 20px;
+    }
+
+    .strategic .col2 p{
+        margin: 0 20px 30px 20px;
     }
 
     .strategic .container{
         display: flex;
         align-items: flex-end;
         margin: 0 auto;
+        width: 60%;
+    }
+
+    .strategic .col1 .strategic-img-text h2{
+        font-size: 2rem;
+    }
+
+    .strategic .col1 .strategic-img-text p{
+        font-size: 0.9rem;
     }
 
     .strategic .container .row{
         display: flex;
+        align-items: flex-end;
         justify-content: center;
     }
 
