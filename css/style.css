@@ -40,7 +40,8 @@ body{
 }
 
 .menu-header{
-    
+    position: fixed;
+    top: 0;
     width: 100vw;
     z-index: 999;
     background-color: #0084FD;
@@ -102,6 +103,10 @@ body{
 /* HEADER  */
 
 /* MAIN  */
+
+.demo{
+    margin-top: 80px;
+}
 
 .demo .container{
     margin: 0 30px;
