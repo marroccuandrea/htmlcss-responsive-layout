@@ -267,22 +267,74 @@ body{
 
 .testimonial .container{
     height: 100%;
-    margin: 0 30px;
+    margin: 70px 30px 100px 30px;
 }
 .testimonial .row{
     height: 100%;
 }
   
 .testimonial .col{
-    height: 500px;
+    height: 100%;
     width: 100%;
     margin-bottom: 30px;
+    
+}
+
+.testimonial .card{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
     background-color: #9792E4;
 }
-.testimonial .col:nth-child(1){
-    height: 340px;
-    margin-bottom: 50px;
+
+.testimonial .card-img{
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
 }
+
+.testimonial .card-img img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testimonial .card-text{
+    color: white;
+    margin: 0 20px;
+}
+
+.testimonial .card-text p{
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.testimonial .card-text h3{
+    margin-bottom: 30px;
+}
+
+.testimonial .col h2{
+    font-size: 2.2rem;
+    color: #9792E4;
+    margin: 40px 0 40px 0;
+}
+
+.testimonial .col p{
+    font-size: 1.2rem;
+}
+
+
+.testimonial .col:nth-child(1){
+    margin-bottom: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.testimonial .col:nth-child(4){
+    margin-bottom: 0;
+}
+
 .testimonial .row:nth-child(1) .col{
     text-align: center;
 }
