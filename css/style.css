@@ -111,7 +111,7 @@ body{
     margin: 0 30px;
 }
 
-.container .row{
+.demo .container .row{
     width: 100%;
     margin-top: 110px;
     justify-content: center;
@@ -127,7 +127,7 @@ body{
 
 .row .card-small{
     width: 100%;
-    height: 360px;
+    height: 100%;
     background-color: #B5DDFF;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -178,7 +178,26 @@ body{
     left: 0;
 }
 
+.card-small .icon-card-s-l{
+    text-align: center;
+    font-size: 5rem;
+    color: #0084FD;
+    margin: 20px 30px 10px 30px;
+}
 
+.card-small .text-card{
+    text-align: center;
+    margin: 0 30px 30px 30px;
+}
+
+.card-small .text-card p{
+    line-height: 1.6rem;
+}
+
+.card-small .text-card h2{
+    color: #0084FD;
+    margin-bottom: 35px;
+}
 
 .strategic{
     background-color: #9792E4;
@@ -190,14 +209,60 @@ body{
 
 .strategic .col1{
     width: 100%;
-    height: 650px;
-    background-color: red;
+    height: 100%;
+    margin-top: 60px;
+    color: white;
 }
+
+.strategic .col1 p{
+    line-height: 1.7rem;
+}
+
+.strategic .col1 h2{
+    font-size: 2.1rem;
+    margin-bottom: 50px;
+}
+
+.strategic .col1 img{
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
 .strategic .col2{
     width: 100%;
-    height: 600px;
-    background-color: red;
+    height: 100%;
     margin-bottom: 30px;
+}
+
+.strategic .col2 i{
+    background-color: #9792E4;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.strategic .col2 p{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.strategic .col2 h2{
+    margin-bottom: 25px;
+}
+
+.strategic .col2 img{
+    object-fit: contain;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.strategic .col2 .card{
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
 }
 
 .testimonial .container{
@@ -306,13 +371,17 @@ footer .container{
 
 @media screen and (min-width:768px){
     
-    .container .row{
+    .demo .container .row{
         justify-content: space-between;
     }
 
     .row .card-large{
-        width: 65%;
+        width: 486px;
         height: 565px;
+    }
+
+    .row .card-small{
+        height: 100%;
     }
 
     .card-large .text-card{
@@ -324,12 +393,13 @@ footer .container{
     }
 
     .demo #larger{
+        width: 230px;
         height: 565px;
     }
 
     .row .card-small{
-        width: 30%;
-        height: 435px;
+        width: 230px;
+        height: 100%;
     }
 
     .card-large .img-card-l img{
@@ -338,11 +408,15 @@ footer .container{
     }
 
     .strategic .col1{
-        height: 900px;
+        height: 100%;
+    }
+
+    .strategic .col1 h2{
+        font-size: 4.5rem;
     }
 
     .strategic .col2{
-        height: 840px;
+        height: 100%;
     }
 
     .testimonial .col:nth-child(1){
@@ -405,7 +479,7 @@ footer .container{
     .row .card-large{
         height: 350px;
         display: flex;
-        width: 750px;
+        width: 775px;
     }
 
     .card-large .text-card{
@@ -420,15 +494,24 @@ footer .container{
 
     .card-large .img-card-l img{
         left: -60px;
-        
+    }
+
+    .row .card-small{
+        height: 100%;
+        width: 360px;
     }
 
     .demo #larger{
         height: 350px;
+        width: 360px;
     }
 
     .demo .container{
         margin: 0 auto;
+    }
+
+    .demo .container .row{
+        margin-bottom: 70px;
     }
 
     .logo{
@@ -439,19 +522,22 @@ footer .container{
         margin-right: 0;
     }
 
-    .strategic .col1{
-        height: 740px;
-    }
 
-    .strategic .col2{
+    .strategic .row{
         margin-top: 20px;
-        height: 560px;
+        height: 50%;
+        width: 50%;
     }
 
     .strategic .container{
         display: flex;
         align-items: flex-end;
         margin: 0 auto;
+    }
+
+    .strategic .container .row{
+        display: flex;
+        justify-content: center;
     }
 
     .testimonial .container{
