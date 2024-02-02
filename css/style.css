@@ -91,6 +91,7 @@ body{
 .nav-desktop ul li a{
     text-decoration: none;
     color: white;
+    font-size: 1.1rem;
 }
 
 .nav-desktop ul li:last-child{
@@ -132,15 +133,21 @@ body{
     border-radius: 20px;
 }
 
+.card-large .text-card{
+    height: 60%;
+    margin: 0 30px;
+}
+
 .card-large .text-card h2{
-    text-align: center;
     margin-top: 30px;
     color: #0084FD;
 }
 .card-large .text-card p{
     color: #5A6E7F;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    line-height: 1.6rem;
+    font-weight: 700;
 }
 
 .card-large .text-card a{
@@ -149,28 +156,29 @@ body{
     background-color: #0084FD;
     padding: 10px 60px;
     border-radius: 20px;
+    font-size: 1.1rem;
 }
 
 .card-large .text-card i{
     margin-right: 10px;
 }
 
-.card-large .text-card img{
-    width: 100%;
-    object-fit: contain;
-}
-
-.row .card-large .text-card{
-    height: 100%;
-    margin: 0 35px;
+.card-large .img-card-l{
     position: relative;
+    height: 40%;
+    margin: 0 30px;
 }
 
-.row .card-large .text-card img{
+.card-large .img-card-l img{
+    width: 100%;
+    max-height: 270px;
+    object-fit: contain;
     position: absolute;
     bottom: 0;
     left: 0;
 }
+
+
 
 .strategic{
     background-color: #9792E4;
@@ -304,15 +312,29 @@ footer .container{
 
     .row .card-large{
         width: 65%;
+        height: 565px;
+    }
+
+    .card-large .text-card{
+        margin: 0 25px;
+    }
+
+    .card-large .img-card-l{
+        margin: 0 25px;
     }
 
     .demo #larger{
-        height: 600px;
+        height: 565px;
     }
 
     .row .card-small{
         width: 30%;
         height: 435px;
+    }
+
+    .card-large .img-card-l img{
+        left: -90px;
+        
     }
 
     .strategic .col1{
@@ -382,6 +404,23 @@ footer .container{
 
     .row .card-large{
         height: 350px;
+        display: flex;
+        width: 750px;
+    }
+
+    .card-large .text-card{
+        width: 50%;
+        height: 100%;
+    }
+
+    .card-large .img-card-l{
+        width: 50%;
+        height: 100%;
+    }
+
+    .card-large .img-card-l img{
+        left: -60px;
+        
     }
 
     .demo #larger{
