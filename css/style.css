@@ -488,7 +488,7 @@ body{
 .free .text{
     height: 100%;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
 }
@@ -519,11 +519,12 @@ body{
     background-color: white;
     padding: 18px 70px;
     letter-spacing: 0.3rem;
-    border-radius: 30px;
+    border-radius: 40px;
+    font-weight: 700;
 }
 
 .free .text #small{
-    margin-top: 30px;
+    margin-top: 45px;
     font-size: 0.9rem;
 }
 
@@ -678,8 +679,29 @@ footer .container{
     }
 
     .free .text{
-        width: 560px;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .free .text p{
+        margin: 0 125px 50px 125px;
+    }
+
+    .free .text #grey{
+        margin-top: 60px;
+    }
+
+    .free .text #get{
+        padding: 25px 70px;
+        font-size: 1.1rem;
+    }
+
+    .free .text h3{
+        font-size: 2.9rem;
+    }
+
+    .free .text h2{
+        font-size: 5.5rem;
     }
 
     .container .footer-text{
@@ -832,7 +854,11 @@ footer .container{
     }
 
     .free .text{
-        width: 560px;
+        width: 100%;
+    }
+
+    .free .text p{
+        margin: 0 350px 50px 350px;
     }
     
     footer .container{
