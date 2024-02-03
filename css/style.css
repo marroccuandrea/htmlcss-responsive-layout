@@ -533,10 +533,24 @@ footer .container{
     .benefits .row{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits .col:nth-child(1){
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .benefits .col h2#num{
+        font-size: 4.5rem;
+    }
+
+    .benefits .col .card h3{
+        font-size: 1.6rem;
     }
 
     .benefits .col{
-        width: 49%;
+        width: 48%;
     }
 
     .about .row{
@@ -687,7 +701,7 @@ footer .container{
    
 
     .benefits .col{
-        width: 33%;
+        width: 30%;
     }
 
     .benefits .container{
