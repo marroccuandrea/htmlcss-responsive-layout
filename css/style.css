@@ -13,7 +13,7 @@ body{
 /* UTILITY */
 
 .debug{
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 
 .flex{
@@ -46,6 +46,7 @@ body{
     z-index: 999;
     background-color: #0084FD;
     height: 80px;
+    box-shadow: 0 2px 2px gray;
 }
 
 .menu-header .container{
@@ -134,7 +135,7 @@ body{
 }
 
 .card-large .text-card{
-    height: 60%;
+    height: 50%;
     margin: 0 30px;
 }
 
@@ -165,7 +166,7 @@ body{
 
 .card-large .img-card-l{
     position: relative;
-    height: 40%;
+    height: 50%;
     margin: 0 30px;
 }
 
@@ -544,6 +545,7 @@ footer{
 }
 
 footer .container{
+    height: 100%;
     margin: 0 25px;
 }
 
@@ -632,7 +634,7 @@ footer .container{
     }
 
     .testimonial .card-text{
-        margin: 50px 0;
+        margin: 50px 70px 50px 0;
         text-align: left;
     }
 
@@ -716,11 +718,10 @@ footer .container{
 
     .container .footer-text{
         width: 100%;
-        
     }
 
     footer .container{
-        margin: 0 215px;
+        margin: 0 240px;
     }
 
 }
@@ -787,18 +788,19 @@ footer .container{
     .strategic .row{
         margin-top: 20px;
         height: 100%;
-        width: 100%;
+        width: 90%;
     }
 
     .strategic .row .col1{
         height: 100%;
         width: 100%;
+        margin-bottom: 60px;
     }
 
     .strategic .row .col2{
         height: 100%;
         width: 100%;
-        margin-bottom: 0;
+        margin-bottom: 60px;
     }
 
     .strategic .col2 img{
