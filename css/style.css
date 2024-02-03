@@ -544,14 +544,24 @@ footer{
 }
 
 footer .container{
-    margin: 0 30px;
+    margin: 0 25px;
 }
 
 .container .footer-text{
-    height: 150px;
+    height: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
     color: white;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.container .footer-text .top{
+    margin-bottom: 60px;
+}
+
+.container .footer-text .bottom a{
+    color: #9792E4;
 }
 
 
