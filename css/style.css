@@ -486,10 +486,56 @@ body{
 }
 
 .free .text{
-    height: 500px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+.free .text p{
+    line-height: 1.8rem;
+    margin-bottom: 50px;
+}
+
+.free .text #grey{
+    color: #CECDF2;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+}
+.free .text h3{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.free .text h2{
+    color: #FDC15F;
+    font-size: 3.7rem;
+    margin-bottom: 20px;
+}
+
+.free .text #get{
+    text-decoration: none;
+    color: #9792E4;
     background-color: white;
+    padding: 18px 70px;
+    letter-spacing: 0.3rem;
+    border-radius: 30px;
+}
+
+.free .text #small{
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+.free .text #small a{
+    color: white;
+}
+
+.free .text p i{
+    font-size: 0.3rem;
+    position: relative;
+    bottom: 3px;
+    left: 0;
 }
 
 footer{
