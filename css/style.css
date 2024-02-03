@@ -838,6 +838,10 @@ footer .container{
         margin: 0 auto;
     }
 
+    .testimonial .col #desk{
+        margin: 0 45px;
+    }
+
     .testimonial .card-img{
         width: 30%;
     }
