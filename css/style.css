@@ -439,14 +439,14 @@ body{
     margin-bottom: 50px;
 }
 
-.about .col .card-img{
+.about .col .card-img-text{
     width: 100%;
     height: 100%;
     margin: 0 auto;
     position: relative;
 }
 
-.about .col .card-img i{
+.about .col .card-img-text #quote{
     position: absolute;
     top: 0;
     left: 135px;
@@ -454,20 +454,20 @@ body{
     color: #9792E4;
 }
 
-.about .col .card-img img{
+.about .col .card-img-text img{
     object-fit: cover;
     width: 180px;
     height: 180px;
     border-radius: 50%;
 }
 
-.about .col .card-text h3{
+.about .col .card-img-text h3{
     font-size: 1.8rem;
     color: #9792E4;
     margin-bottom: 20px;
 }
 
-.about .col .card-text a{
+.about .col .card-img-text a{
     color: white;
     background-color: #9792E4;
     padding: 5px 20px;
@@ -564,8 +564,6 @@ footer .container{
         height: 100%;
     }
 
-    
-
     .testimonial .card{
         display: flex;
     }
@@ -606,18 +604,31 @@ footer .container{
 
     .about .row{
         display: flex;
-        
+        justify-content: space-evenly;
     }
 
     .about .col:nth-child(1){
-        width: 69%;
-        height: 710px;
+        width: 43%;
+        height: 100%;
+    }
+
+    .about .col .card-img-text img{
+        height: 235px;
+        width: 235px;
+    }
+
+    .about .col .card-img-text #quote{
+        left: 190px;
     }
 
     .about .col:nth-child(2){
         width: 30%;
-        height: 520px;
+        height: 100%;
         margin-top: 70px;
+    }
+
+    .about .col h2{
+        font-size: 4.5rem;
     }
 
     .free .text{
@@ -749,8 +760,6 @@ footer .container{
         width: 30%;
     }
 
-   
-
     .benefits .col{
         width: 30%;
     }
@@ -760,10 +769,12 @@ footer .container{
     }
 
     .about .col:nth-child(1){
-        height: 620px;
+        height: 100%;
+        width: 60%;
     }
     .about .col:nth-child(2){
-        height: 530px;
+        height: 100%;
+        width: 20%;
     }
 
     .about .container{
