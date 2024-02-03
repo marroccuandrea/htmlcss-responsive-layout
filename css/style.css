@@ -353,17 +353,58 @@ body{
     height: 100%;
 }
 
-.benefits h2{
-    text-align: center;
-    margin-bottom: 70px;
+.benefits .col h2#num{
+    font-size: 2.8rem;
+    color: #9792E4;
+    margin-bottom: 30px;
 }
+
 
 .benefits .col{
     width: 100%;
-    height: 420px;
-    background-color: grey;
+    height: 100%;
+}
+
+.benefits .col:nth-child(1){
+    margin-top: 70px;
+    color: white;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.benefits .col .card{
+    background-color: white;
+    border-radius: 20px;
     margin-bottom: 30px;
 }
+
+.benefits .col .card h3{
+    color: #9792E4;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.benefits .col .card p{
+    color: #898989;
+    line-height: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.benefits .col .card a{
+    text-decoration: none;
+    color: white;
+    background-color: #9792E4;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.benefits .col .card .card-text{
+    margin: 30px;
+}
+
 
 .about .container{
     height: 100%;
