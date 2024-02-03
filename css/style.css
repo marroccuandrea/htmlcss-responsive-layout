@@ -715,8 +715,12 @@ footer .container{
     }
 
     .container .footer-text{
-        width: 410px;
-        margin: 0 auto;
+        width: 100%;
+        
+    }
+
+    footer .container{
+        margin: 0 215px;
     }
 
 }
@@ -872,7 +876,7 @@ footer .container{
     }
     
     footer .container{
-        margin: 0 auto;
+        margin: 0 420px;
     }
     
 }
